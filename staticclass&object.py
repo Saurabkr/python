@@ -14,5 +14,6 @@ a = animal(10)
 print(a.value)
 a.printVal(11)      
 print(a.value)
+#static method called by object as well from class name
 print(a.add(5,9))
 print(animal.add(5,9))

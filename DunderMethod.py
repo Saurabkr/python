@@ -6,8 +6,8 @@ class DataScience:
     def toLearn(self):
         print(f"To learn Data Science you need to know {self.topic} and {self.language}")
 
-    # def __str__(self):
-    #     return "This class provide guide to ace DS "   
+    def __str__(self):
+        return "This class provide guide to ace DS "   
 
     def __repr__(self):
         return "In this we learn DS basic"
@@ -21,7 +21,6 @@ class DataScience:
 
 
 s = DataScience("Statitics","python")
-# print(s.toLearn())
 
 print(s)
 s(["ml","DL", "PowerBI"], {1:'integration', 2:'Linear Regrassion', 3:'Probablity'})            

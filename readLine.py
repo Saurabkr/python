@@ -1,3 +1,5 @@
+#Readline function read line by line
+
 f = open('file.txt','r')
 
 i=0

@@ -13,12 +13,13 @@ class Getter_setter:
             return 0
         return self.a*self.b
     
-    #setter to set the value
+#setter to set the value
     @multiply.setter
     def multiply(self, nValue):
         self.a = nValue*self.a
         self.b = nValue*self.b
 
+#use to delete the set value by setter
     @multiply.deleter
     def multiply(self):
         self.a = None

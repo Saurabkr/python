@@ -11,6 +11,7 @@ a.fun()
 
 class car:
     def __init__(self, speed, capacity):
+        print("Iam a parametrised constructor")
         self.speed = speed
         self.capacity = capacity
 
